@@ -1,0 +1,18 @@
+{
+  "title": "Bee's Family Roots",
+  "people": [
+    { "id": "p1", "name": "Baba",  "gender": "male",   "dob": "1971-08-02", "fatherId": null, "motherId": null, "spouses": [{ "id": "p2", "status": "married" }], "isInLaw": false },
+    { "id": "p2", "name": "Mama",  "gender": "female", "dob": "1971-04-17", "fatherId": null, "motherId": null, "spouses": [{ "id": "p1", "status": "married" }], "isInLaw": true },
+
+    { "id": "p3", "name": "Wana", "gender": "female", "dob": "1995-12-20", "fatherId": "p1", "motherId": "p2", "spouses": [{ "id": "p6", "status": "married" }], "isInLaw": false },
+    { "id": "p4", "name": "Nadia", "gender": "female", "dob": "1997-03-13", "fatherId": "p1", "motherId": "p2", "spouses": [{ "id": "p7", "status": "married" }], "isInLaw": false },
+    { "id": "p5", "name": "Bee",     "gender": "female",   "dob": "2005-04-05", "fatherId": "p1", "motherId": "p2", "spouses": [], "isInLaw": false },
+
+    { "id": "p6", "name": "Amirul",  "gender": "male", "dob": "1996-09-12", "fatherId": null, "motherId": null, "spouses": [{ "id": "p3", "status": "married" }], "isInLaw": true },
+    { "id": "p7", "name": "Safwan", "gender": "male", "dob": "1994-08-31", "fatherId": null, "motherId": null, "spouses": [{ "id": "p4", "status": "married" }], "isInLaw": true },
+
+    { "id": "p8",  "name": "Ajib",  "gender": "male", "dob": "2022-08-05", "fatherId": "p6", "motherId": "p3", "spouses": [], "isInLaw": false },
+    { "id": "p9",  "name": "Qinqin", "gender": "male", "dob": "2025-01-15", "fatherId": "p6", "motherId": "p3", "spouses": [], "isInLaw": false },
+    { "id": "p10", "name": "Noah", "gender": "male", "dob": "2025-06-07", "fatherId": "p7", "motherId": "p4", "spouses": [], "isInLaw": false }
+  ]
+}

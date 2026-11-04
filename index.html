@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bee's Family Roots</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1><span class="sparkle" aria-hidden="true">🌸</span> <span id="title">Bee's Family Roots</span> <span class="sparkle" aria-hidden="true">🌸</span></h1>
+    <p class="quote">🌿 “We may grow in different directions, but our roots stay together.” 🌿</p>
+  </header>
+
+  <!-- long straight line that separates the title from the buttons -->
+  <hr class="divider">
+
+  <div class="toolbar">
+    <section class="filters" aria-label="Filters">
+      <input id="search" type="search" placeholder="🔍 Search a name">
+      <select id="gender" aria-label="Gender">
+        <option value="">All genders</option><option value="male">Boys</option><option value="female">Girls</option>
+      </select>
+      <select id="generation" aria-label="Generation"><option value="">All generations</option></select>
+      <select id="zodiac" aria-label="Zodiac"><option value="">All zodiac signs</option></select>
+      <button id="reset" type="button">Clear</button>
+    </section>
+    <nav class="tabs" aria-label="Views">
+      <button class="tab active" data-view="tree">🌳 Tree</button>
+      <button class="tab" data-view="members">💛 Members</button>
+      <button class="tab" data-view="stats">⭐ Stats</button>
+    </nav>
+  </div>
+
+  <main class="layout">
+    <section id="main-view" class="main-view"></section>
+  </main>
+
+  <!-- Pop-up card: appears when a person is tapped, closes with X, outside click or Esc -->
+  <div id="overlay" class="overlay" hidden>
+    <aside id="details" class="details" role="dialog" aria-modal="true" aria-label="Person details"></aside>
+  </div>
+
+  <!-- fixed box: never moves when you switch views -->
+  <footer class="foot">Made with 💛 for ITT588 Lab Work 4 · by Nurul Nabihah binti Jasri</footer>
+
+  <!-- Plain scripts (not ES modules) so the page also opens by double-click. Order matters. -->
+  <script src="js/model.js"></script>
+  <script src="js/view.js"></script>
+  <script src="js/controller.js"></script>
+</body>
+</html>
