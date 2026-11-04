@@ -3,8 +3,6 @@
 **ITT588 Front-End Technology – Lab Work 4: Interactive Family Tree Web Application**
 By **Nurul Nabihah binti Jasri**
 
-🔗 **Live demo:** https://nbhhjsr.github.io/family-tree/
-
 ---
 
 ## 📖 Introduction
@@ -69,12 +67,6 @@ family-tree/
 - **Online:** open the live demo link above.
 - **On your computer:** download or clone the repository, then double-click `index.html`.
   If the browser blocks the JSON file, use the **Choose data/people.json** button on the page, or open the folder with VS Code **Live Server**.
-
-## 📸 Screenshots
-
-| Tree | Pop-up card |
-|------|-------------|
-| ![Tree view](images/tree.png) | ![Details card](images/popup.png) |
 
 ## ✅ Conclusion
 
